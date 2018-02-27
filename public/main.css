@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,800');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 8rem 20px;
+  background: #00BCD4;
+  font-family: 'Raleway','Roboto',sans-serif;
+}
+
+h2 {
+  color:#fff;
+  text-align: center;
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.input {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.input a {
+  text-decoration: none;
+  background: #fff;
+  text-align: center;
+  color: #00BCD4;
+  font-size: 20px;
+  padding: 20px 30px;
+  box-shadow: 0 0 3px rgb(113, 113, 113);
+  cursor: pointer;
+}
+
+.output {
+  padding: 3rem 0;
+  max-width: 800px;
+  color: #fff;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+p.w {
+  font-weight: 800;
+}
