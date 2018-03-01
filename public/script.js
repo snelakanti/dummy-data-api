@@ -75,7 +75,7 @@ var output = document.getElementsByClassName("output")[0];
 //add Click Listener
 btnGenerate.addEventListener("click",()=>{
   var quote = getRandomQuote(quotes.length);
-  output.innerHTML = '<p>' + quote.quote + '</p>' + '<p class="w"> - ' + quote.name + '</p>' + quote.image_url;
+  output.innerHTML = '<p>' + quote.quote + '</p>' + '<p class="w"> - ' + quote.name + '</p>';
 });
 
 //function for Random Quote Generator

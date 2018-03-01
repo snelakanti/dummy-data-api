@@ -7,14 +7,14 @@
 
 body {
   padding: 8rem 20px;
-  background: #00BCD4;
+  background: rgb(2, 189, 214);
   font-family: 'Raleway','Roboto',sans-serif;
 }
 
 h2 {
   color:#fff;
   text-align: center;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 3rem;
 }
 
@@ -29,6 +29,7 @@ h2 {
   text-align: center;
   color: #00BCD4;
   font-size: 20px;
+  font-weight: 500;
   padding: 20px 30px;
   box-shadow: 0 0 3px rgb(113, 113, 113);
   cursor: pointer;
@@ -45,3 +46,4 @@ h2 {
 p.w {
   font-weight: 800;
 }
+
